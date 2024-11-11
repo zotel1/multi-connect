@@ -41,6 +41,7 @@ class DeviceAdapter : RecyclerView.Adapter<DeviceAdapter.DeviceViewHolder>() {
         fun bind(device: BluetoothDevice) {
             nameTextView.text = device.name ?: "Nombre desconocido"
             addressTextView.text = device.address
+
         }
     }
 }
